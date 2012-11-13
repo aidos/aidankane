@@ -9,11 +9,13 @@ a:hover {color:#08c;}
 .active > a, a.active {color:#08c;}
 
 // body / background
-body {overflow-x:hidden;}
-//.color-bar {background-color:#414141;height:3px;border-bottom:3px solid #D8450B;}
+body {overflow-x:hidden;background:url('../img/bg.jpg');}
 
 // header / footer
 header.main {.clearfix;max-width:1080px;margin:0 auto;}
+header.main {font-family:'Press Start 2P', cursive;text-shadow:#eee 0px 1px 0px;}
+header.main h2 {font-size:1.1em;line-height:1.3em;}
+
 footer.main {position:fixed;bottom:0;background:rgba(0,0,0,.9);width:100%;line-height:35px;height:35px;}
 footer.main .inner {margin:0 auto;max-width:1080px;}
 footer.main a {color:#ccc;}
@@ -21,8 +23,14 @@ footer.main .inner .pull-right {margin-left:10px;}
 
 // general content
 .main-content {margin-bottom:40px;max-width:1080px;margin:0 auto;}
+
+// general sections
+section.main header h2 {color:#ED4246;}
 section.main {margin-top:50px;}
 section.main h3 {font-weight:normal;}
+section.main h3 a {color:#000;}
+
+section.work article {margin-top:30px;}
 
 @media screen and (max-width:1100px) {
   header.main {margin:0 10px;}
@@ -33,12 +41,4 @@ section.main h3 {font-weight:normal;}
 
 // need a little more space to handle the fixed footer
 section.references {margin-bottom:100px;}
-
-//@media screen and (max-width:480px) {
-//  header.main h1 {font-size:26px;line-height:30px;}
-//  header.main h1 {font-size:26px;line-height:30px;}
-//  header.main p {font-size:12px;}
-//  header.portfolio-head {font-size:22px;line-height:26px;}
-//  h2 {font-size:22px;line-height:26px;}
-//}
 

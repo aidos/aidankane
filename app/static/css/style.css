@@ -796,6 +796,7 @@ a.active {
 }
 body {
   overflow-x: hidden;
+  background: url('../img/bg.jpg');
 }
 header.main {
   *zoom: 1;
@@ -810,6 +811,14 @@ header.main:after {
 }
 header.main:after {
   clear: both;
+}
+header.main {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: #eee 0px 1px 0px;
+}
+header.main h2 {
+  font-size: 1.1em;
+  line-height: 1.3em;
 }
 footer.main {
   position: fixed;
@@ -834,11 +843,20 @@ footer.main .inner .pull-right {
   max-width: 1080px;
   margin: 0 auto;
 }
+section.main header h2 {
+  color: #ED4246;
+}
 section.main {
   margin-top: 50px;
 }
 section.main h3 {
   font-weight: normal;
+}
+section.main h3 a {
+  color: #000;
+}
+section.work article {
+  margin-top: 30px;
 }
 @media screen and (max-width: 1100px) {
   header.main {
