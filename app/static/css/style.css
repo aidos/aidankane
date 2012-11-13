@@ -800,7 +800,7 @@ body {
 }
 header.main {
   *zoom: 1;
-  max-width: 1080px;
+  max-width: 960px;
   margin: 0 auto;
 }
 header.main:before,
@@ -830,17 +830,17 @@ footer.main {
 }
 footer.main .inner {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 960px;
 }
 footer.main a {
   color: #ccc;
 }
 footer.main .inner .pull-right {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .main-content {
   margin-bottom: 40px;
-  max-width: 1080px;
+  max-width: 960px;
   margin: 0 auto;
 }
 section.main header h2 {
@@ -849,16 +849,17 @@ section.main header h2 {
 section.main {
   margin-top: 50px;
 }
-section.main h3 {
-  font-weight: normal;
+section.main header {
+  margin: 10px 0;
 }
-section.main h3 a {
-  color: #000;
+section.main header h3 {
+  font-weight: normal;
+  margin: 0;
 }
 section.work article {
   margin-top: 30px;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 980px) {
   header.main {
     margin: 0 10px;
   }
