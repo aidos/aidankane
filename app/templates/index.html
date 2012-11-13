@@ -2,11 +2,82 @@
 
 {% block content %}
 
-<section>
-  <header class="portfolio-head">
-    <span>My Work</span>
+<section class="main work">
+  <header>
+    <h2>Recent Work</h2>
   </header>
 
+  <article>
+    <h3>http://www.4music.com/</h3>
+    <ul>
+      <li>Most of the Frontend and Backend work</li>
+      <li>Built a complete cms atop of CodeIgniter</li>
+      <li>Designed a really nifty image cropper (focal points for cropping - you can see it in action in the homepage slider)</li>
+      <li>Interfaces with various Channel4 apis</li>
+      <li>Solr search</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>http://www.codegent.com/</h3>
+    <ul>
+      <li>Whole site (including a mobile optimised version)</li>
+      <li>Simple animation framework for scrolly behaviour</li>
+      <li>Even runs in IE7</li>
+      <li>Code to look at if you're interested (it's a few months old and probably needs a little love)</li>
+      <li>http://static.codegent.com/static/js/cg_animations.js</li>
+      <li>http://static.codegent.com/static/js/cg_anim_showcase.js</li>
+    </ul>
+  </article>
+
+
+  <article>
+    <h3>http://sale.hoxtonhotels.com/</h3>
+    <ul>
+      <li>Booking engine for a flash sale (only accessible during the £1 sale period)</li>
+      <li>10,000s of people try to book 500 rooms at the same moment</li>
+      <li>Peaked at 800 booking requests/second</li>
+      <li>Redis backend, Flask servers, JS interface</li>
+      <li>Used S3 as a semi-realtime data cache (it's amazingly resilient)</li>
+      <li>Many hours tuning linux servers</li>
+      <li>One of the more stressful minutes of my life :)</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>http://www.photoswarm.com/</h3>
+    <ul>
+      <li>My personal project</li>
+      <li>Built the whole thing (including a recurring billing system)</li>
+      <li>Scalable (scripted) EC2 infrastructure</li>
+      <li>Hosting just shy of 500,000 images (13,000 websites)</li>
+      <li>Currently in the midst of a rebuild (and redesign)</li>
+      <li>Moving to Flask / django-tastypie architecture</li>
+      <li>Ember.js for the admin frontend</li>
+      <li>100% responsive layout</li>
+      <li>It's gonna be sweet :)</li>
+    </ul>
+  </article>
+</section>
+
+<section class="main education">
+  <header>
+    <h2>Education</h2>
+  </header>
+
+  <article>
+    <h3>BSc (Hons) Victoria University, Wellington NZ; Majoring in Computer Science &amp; Mathematical Logic</h3>
+  </article>
+</section>
+
+<section class="main references">
+  <header>
+    <h2>References</h2>
+  </header>
+
+  <article>
+    <h3>On request</h3>
+  </article>
 </section>
 
 {% endblock %}
